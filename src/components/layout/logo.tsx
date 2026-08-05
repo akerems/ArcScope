@@ -7,7 +7,7 @@ export function Logo() {
         <span className="absolute size-2.5 rounded-full bg-[#55f6b1] shadow-[0_0_16px_#55f6b1]" />
         <span className="absolute size-5 rounded-full border border-[#55f6b1]/30" />
       </span>
-      <span className="text-lg">ArcScope</span>
+      <span className="text-lg">TxLoom</span>
       <span className="hidden rounded-full border border-[#283643] px-2 py-0.5 text-[10px] font-bold uppercase tracking-widest text-[#8a9bad] sm:inline">
         Testnet
       </span>

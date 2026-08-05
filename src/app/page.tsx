@@ -113,7 +113,7 @@ export default function Home() {
         </div>
       </section>
       <footer className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-8 text-xs text-[#5e7181] sm:flex-row sm:justify-between lg:px-8">
-        <span>© 2026 ArcScope</span>
+        <span>© 2026 TxLoom</span>
         <span>Built for exploration. Data may be delayed.</span>
       </footer>
     </main>

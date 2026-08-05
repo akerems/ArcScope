@@ -4,7 +4,7 @@ import { Navbar } from "@/components/layout/navbar";
 import { Providers } from "@/components/providers";
 
 export const metadata: Metadata = {
-  title: "ArcScope — On-chain intelligence for Arc",
+  title: "TxLoom — Visual on-chain intelligence",
   description:
     "Explore wallet and contract activity through an interactive Arc network map.",
 };
