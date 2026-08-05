@@ -1,6 +1,6 @@
-# ArcScope
+# TxLoom
 
-ArcScope is a dark, responsive on-chain analysis interface running on Arc Testnet. Enter an EVM wallet or contract address to load live Arcscan/Blockscout and RPC data, normalized activity metrics, a Cytoscape connection map, node details, a transparent Wallet DNA estimate, balances, and recent transfers.
+TxLoom is a dark, responsive on-chain analysis interface running on Arc Testnet. Enter an EVM wallet or contract address to load live Arcscan/Blockscout and RPC data, normalized activity metrics, a Cytoscape connection map, node details, a transparent Wallet DNA estimate, balances, and recent transfers.
 
 ## Features
 
@@ -81,7 +81,7 @@ Blockchain response types and normalized view models do not leak into presentati
 
 Live data is the default. Set `NEXT_PUBLIC_USE_MOCK_DATA=true` for deterministic development data when the explorer is unavailable. Any valid EVM address becomes the target node in mock mode.
 
-Arc uses USDC as its native gas asset. ArcScope reads the canonical ERC-20 view at `0x3600000000000000000000000000000000000000` with 6 decimals. It never adds that amount to the 18-decimal native view, because both represent the same underlying balance.
+Arc uses USDC as its native gas asset. TxLoom reads the canonical ERC-20 view at `0x3600000000000000000000000000000000000000` with 6 decimals. It never adds that amount to the 18-decimal native view, because both represent the same underlying balance.
 
 ## Vercel deployment
 

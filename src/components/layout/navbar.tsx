@@ -12,9 +12,9 @@ export function Navbar() {
             How it works
           </Link>
           <a
-            aria-label="View ArcScope on GitHub"
+            aria-label="View TxLoom on GitHub"
             className="transition hover:text-white"
-            href="https://github.com/akerems/ArcScope"
+            href="https://github.com/akerems/TxLoom"
             rel="noreferrer"
             target="_blank"
           >

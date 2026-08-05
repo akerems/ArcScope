@@ -33,7 +33,7 @@ function transactionValue(
   return formatUnits(BigInt(nativeValue), 18);
 }
 
-/** Converts Blockscout-specific responses into the stable ArcScope model. */
+/** Converts Blockscout-specific responses into the stable TxLoom model. */
 export function normalizeAddressAnalysis(
   requestedAddress: string,
   data: ExplorerAddressData,
