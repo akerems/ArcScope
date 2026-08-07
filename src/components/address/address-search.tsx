@@ -53,12 +53,12 @@ export function AddressSearch({ compact = false }: AddressSearchProps) {
           value={value}
         />
         <button
-          className={`absolute right-2 top-1/2 flex -translate-y-1/2 items-center gap-2 rounded-lg bg-[#55f6b1] px-4 font-semibold text-[#04100b] transition hover:bg-[#79ffc5] ${
+          className={`group absolute right-2 top-1/2 flex -translate-y-1/2 cursor-pointer items-center gap-2 rounded-lg bg-[#55f6b1] px-4 font-semibold text-[#04100b] shadow-[0_0_0_rgba(85,246,177,0)] transition hover:-translate-y-[54%] hover:bg-[#79ffc5] hover:shadow-[0_8px_22px_rgba(85,246,177,0.16)] ${
             compact ? "h-9 text-sm" : "h-12"
           }`}
           type="submit"
         >
-          Analyze <ArrowRight size={16} />
+          Analyze <ArrowRight className="transition-transform group-hover:translate-x-0.5" size={16} />
         </button>
       </form>
       {error ? (

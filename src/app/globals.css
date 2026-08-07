@@ -37,6 +37,53 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+.hover-lift,
+.guide-card,
+.graph-node {
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.guide-card {
+  border: 1px solid transparent;
+  background: rgba(10, 17, 25, 0.42);
+}
+
+@media (hover: hover) {
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    border-color: rgba(85, 246, 177, 0.38);
+    box-shadow:
+      0 18px 38px rgba(0, 0, 0, 0.22),
+      0 0 0 1px rgba(85, 246, 177, 0.05);
+  }
+
+  .guide-card:hover {
+    transform: translateX(4px);
+    border-color: rgba(89, 169, 255, 0.24);
+    background: rgba(13, 23, 33, 0.82);
+  }
+
+  .graph-node:hover {
+    transform: scale(1.045);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .hover-lift,
+  .guide-card,
+  .graph-node {
+    transition-duration: 0.01ms;
+  }
+}
+
 .dot-grid {
   background-image: radial-gradient(rgba(123, 155, 175, 0.18) 1px, transparent 1px);
   background-size: 24px 24px;
